@@ -1,0 +1,56 @@
+/* Logo Container */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+
+  .outer-box {
+    border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 3px;
+    color: rgba(0, 0, 0, 0.541);
+    padding:2px
+  }
+
+  .k{
+    height: fit-content;
+    line-height: 3rem;
+  }
+  
+  /* 5K Box Styling */
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #ffffff; /* Border color */
+    font-size: 4rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.695);
+    color:white
+   
+  }
+  
+  /* Studios Text Styling */
+  .text {
+    font-size: 1.5rem;
+    font-weight: 600;
+ 
+    
+    font-family: roboto;
+  }
+  
+  /* Web Development Subtext Styling */
+  .subtext {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+    letter-spacing: 1px;
+    font-family: roboto condensed;
+  }
+  
